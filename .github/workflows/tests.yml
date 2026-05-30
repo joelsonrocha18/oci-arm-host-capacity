@@ -26,7 +26,7 @@ jobs:
         OCI_USER_ID: ${{ secrets.OCI_USER_ID }}
         OCI_TENANCY_ID: ${{ secrets.OCI_TENANCY_ID }}
         OCI_KEY_FINGERPRINT: ${{ secrets.OCI_KEY_FINGERPRINT }}
-        OCI_KEY_FILE: ${{ secrets.OCI_KEY_FILE }}
+        OCI_KEY_CONTENTS: ${{ secrets.OCI_KEY_FILE }}
         OCI_SUBNET_ID: ${{ secrets.OCI_SUBNET_ID }}
         OCI_OCPUS: ${{ secrets.OCI_OCPUS }}
         OCI_MEMORY_IN_GBS: ${{ secrets.OCI_MEMORY_IN_GBS }}
